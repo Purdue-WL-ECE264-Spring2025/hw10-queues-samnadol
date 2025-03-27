@@ -57,8 +57,8 @@ int number_of_moves(struct game_state start) {
     // time_t begin = clock();
 
     void (*tile_move[4])(struct game_state *state);
-    tile_move[0] = move_up;
-    tile_move[1] = move_down;
+    tile_move[1] = move_up;
+    tile_move[0] = move_down;
     tile_move[2] = move_left;
     tile_move[3] = move_right;
 
